@@ -1,0 +1,373 @@
+.body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ececec;
+}
+/* Whole box */
+.Whole_box {
+  width: 1280px;
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  margin: 40px auto;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+/* Atribute */
+#rectangle {
+  width: 823px;
+  height: 278px;
+  background: #011444;
+  margin: -80px 0 0 -80px;
+}
+
+/* Without sidebar section */
+.Without_sidebar {
+  padding: 80px;
+}
+
+/* Header */
+.Head_text {
+  margin-top: -260px;
+}
+.Header {
+  width: 502px;
+  height: 153px;
+  padding-bottom: 150px;
+}
+.My_name {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 67px;
+  color: #e6e6e6;
+}
+.Line {
+  width: 275px;
+  color: #e6e6e6;
+}
+.Profession {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 43px;
+  padding-left: 150px;
+  color: #e6e6e6;
+}
+
+/* Left part */
+.Left_part {
+  margin-top: 50px;
+}
+
+/* Personal information */
+.Personal_information {
+  padding-bottom: 60px;
+}
+
+.Personal_information_img {
+  width: 31px;
+  height: 26px;
+  background: url(user-icons.jpg);
+  display: inline;
+  padding-right: 10px;
+}
+.Personal_information_title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 43px;
+  color: #011444;
+  display: inline;
+}
+.Personal_information_ul {
+  padding-left: 85px;
+}
+.Personal_information_li1 {
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+.Personal_information_li2 {
+  margin-bottom: 20px;
+}
+.Personal_information_li3 {
+  margin-bottom: 20px;
+}
+.Personal_information_li4 {
+  margin-bottom: 20px;
+}
+
+.Personal_information_li {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: 0.01em;
+  color: black;
+}
+.Personal_information_li_text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: 0.01em;
+  color: #000;
+}
+
+/* Education */
+.Education {
+  padding-bottom: 65px;
+}
+.Education_img {
+  width: 38px;
+  height: 28px;
+  background: url(user-icons.jpg);
+  display: inline;
+  padding-right: 10px;
+}
+.Education_title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 43px;
+  letter-spacing: 0.01em;
+  color: #011444;
+  display: inline;
+  margin-bottom: 15px;
+}
+.Education_studing_date {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  margin-left: 55px;
+}
+.Education_profession {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  color: black;
+  margin-left: 55px;
+  margin-bottom: 20px;
+}
+
+.Education_ul {
+  padding-left: 85px;
+}
+.Education_li {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: 0.01em;
+  color: black;
+}
+.Education_li_text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: 0.01em;
+  color: black;
+}
+/* Work experience */
+.Brifcase_icon {
+  width: 28px;
+  height: 22px;
+  background: url(kisspng-computer-icons-work-experience-clip-art-experiential-5b06897787b6b0.7873029515271550635559.png);
+  display: inline;
+  padding-right: 10px;
+  padding-left: 5px;
+}
+.Work_experience_title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 43px;
+  letter-spacing: 0.01em;
+  color: #011444;
+  display: inline;
+  margin-bottom: 15px;
+}
+.Work_experience_ul {
+  padding-left: 85px;
+  padding-top: 20px;
+}
+.Work_experience_li1 {
+  padding-bottom: 20px;
+}
+.Work_experience_li2 {
+  padding-bottom: 20px;
+}
+.Work_experience_li3 {
+  padding-bottom: 20px;
+}
+.Work_experience_li {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: 0.01em;
+  color: black;
+}
+.Work_experience_li_text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: 0.01em;
+  color: black;
+  line-height: 1;
+}
+.Work_experience_li_text2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: 0.01em;
+  color: #676767;
+  line-height: 1.5;
+}
+
+/* Sidebar */
+.Sidebar {
+  width: 460px;
+  background-color: #011444;
+}
+.spiner {
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+}
+.line {
+  width: 350px;
+  height: 350px;
+  border: 5px solid rgb(250, 250, 250);
+  border-radius: 50%;
+  position: absolute;
+  margin: 50px 0 0 50px;
+}
+.My_photo {
+  position: relative;
+  width: 350px;
+  height: 330px;
+  background: url(my_photo.png);
+  margin: 65px 55px 45px 55px;
+}
+
+/* My profile */
+.My_profile_title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: 0.01em;
+  color: #d1d1d1;
+  padding: 0 0 10px 125px;
+}
+.My_profile_p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #dfdede;
+  padding: 0 50px;
+}
+.My_profile_p_end {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #dfdede;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+/* Contacts */
+.Contacts {
+  margin-bottom: 95px;
+}
+.Contacts_title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: 0.01em;
+  color: #d1d1d1;
+  margin-left: 135px;
+}
+.BigL {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  color: #d1d1d1;
+  margin: 40px 0 0 70px;
+  line-height: 2;
+  padding-right: 10px;
+}
+.Contact_links {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #b8b8b8;
+}
+/* PERSONAL FEATURES */
+.Personal_features_title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: 0.01em;
+  color: #d1d1d1;
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+.Personal_features_ul {
+  margin-left: 55px;
+}
+.Personal_features_li {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: 0.01em;
+  color: #dcdcdc;
+}
+.Personal_features_li_text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: 0.01em;
+  color: #dfdede;
+  line-height: 2;
+}
